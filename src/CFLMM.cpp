@@ -13,7 +13,10 @@ CFLMM::~CFLMM()
 
 }
 
-bool CFLMM::update(const yarp::sig::Vector &q, const yarp::sig::Vector &u, const yarp::sig::Vector &f)
+bool CFLMM::update(const yarp::sig::Vector &q,
+                   const yarp::sig::Vector &u,
+                   const yarp::sig::Vector &f,
+                   const yarp::sig::Vector &Kq)
 {
     return true;
 }

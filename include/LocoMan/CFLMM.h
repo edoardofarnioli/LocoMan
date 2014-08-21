@@ -10,7 +10,8 @@ namespace LocoMan {
 
         bool update( const yarp::sig::Vector &q,
                      const yarp::sig::Vector &u,
-                     const yarp::sig::Vector &f);
+                     const yarp::sig::Vector &f,
+                     const yarp::sig::Vector &Kq);
 
         yarp::sig::Matrix getPsi_q();
         yarp::sig::Matrix getPsi_tau();
